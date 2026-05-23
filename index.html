@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="description" content="Bhuvana – Front-End Developer personal portfolio" />
+
+  <title>Bhuvana | Front-End Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+
+    <nav class="nav" aria-label="Primary navigation">
+
+      <a href="#home" class="nav__logo">
+        B<span class="nav__logo-dot">.</span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Theme Toggle -->
+      <button id="theme-toggle">🌙</button>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+      <div class="hero__content">
+
+        <p class="hero__label">Hello, world! I'm</p>
+
+        <h1 class="hero__title">Bhuvana</h1>
+
+        <p class="hero__subtitle">
+          Front-End Developer & UI Designer
+        </p>
+
+        <p class="hero__bio">
+          I craft clean, accessible, and beautiful web experiences using semantic HTML & CSS.
+        </p>
+
+        <div class="hero__actions">
+
+          <a href="#projects" class="btn btn--primary">
+            View My Work
+          </a>
+
+          <a href="#contact" class="btn btn--outline">
+            Get in Touch
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- Profile Image -->
+      <figure class="hero__photo-wrap">
+
+        <img
+          src="images/profile.jpg"
+          alt="Bhuvana Profile"
+          class="hero__photo" />
+
+      </figure>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+
+      <div class="container">
+
+        <header class="section__header">
+
+          <span class="section__label">
+            01 / About
+          </span>
+
+          <h2 class="section__title">
+            Who I Am
+          </h2>
+
+        </header>
+
+        <article class="about__content">
+
+          <p class="about__text">
+            I'm a passionate front-end developer based in Hyderabad, India,
+            dedicated to building visually attractive and responsive websites.
+          </p>
+
+          <p class="about__text">
+            My goal is to create modern, clean, and user-friendly web experiences.
+          </p>
+
+          <ul class="about__facts">
+
+            <li class="about__fact">
+              <span class="about__fact-number">3+</span>
+              <span class="about__fact-label">Years Coding</span>
+            </li>
+
+            <li class="about__fact">
+              <span class="about__fact-number">20+</span>
+              <span class="about__fact-label">Projects Built</span>
+            </li>
+
+            <li class="about__fact">
+              <span class="about__fact-number">100%</span>
+              <span class="about__fact-label">Passion</span>
+            </li>
+
+          </ul>
+
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+
+      <div class="container">
+
+        <header class="section__header">
+
+          <span class="section__label">
+            02 / Skills
+          </span>
+
+          <h2 class="section__title">
+            What I Know
+          </h2>
+
+        </header>
+
+        <ul class="skills__grid">
+
+          <li class="skill-card">
+
+            <span class="skill-card__icon">&#60;/&#62;</span>
+
+            <h3 class="skill-card__name">HTML5</h3>
+
+            <p class="skill-card__desc">
+              Semantic structure and SEO-friendly markup.
+            </p>
+
+          </li>
+
+          <li class="skill-card">
+
+            <span class="skill-card__icon">&#123;&#125;</span>
+
+            <h3 class="skill-card__name">CSS3</h3>
+
+            <p class="skill-card__desc">
+              Responsive design using Flexbox and Grid.
+            </p>
+
+          </li>
+
+          <li class="skill-card">
+
+            <span class="skill-card__icon">&#9998;</span>
+
+            <h3 class="skill-card__name">UI Design</h3>
+
+            <p class="skill-card__desc">
+              Clean typography and modern layouts.
+            </p>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+
+      <div class="container">
+
+        <header class="section__header">
+
+          <span class="section__label">
+            03 / Projects
+          </span>
+
+          <h2 class="section__title">
+            Featured Work
+          </h2>
+
+        </header>
+
+        <ol class="projects__list">
+
+          <li class="project-card">
+
+            <div class="project-card__meta">
+
+              <span class="project-card__tag">
+                HTML · CSS
+              </span>
+
+              <span class="project-card__number">
+                01
+              </span>
+
+            </div>
+
+            <h3 class="project-card__title">
+              Café Menu Page
+            </h3>
+
+          </li>
+
+          <li class="project-card">
+
+            <div class="project-card__meta">
+
+              <span class="project-card__tag">
+                HTML · CSS
+              </span>
+
+              <span class="project-card__number">
+                02
+              </span>
+
+            </div>
+
+            <h3 class="project-card__title">
+              Event Announcement
+            </h3>
+
+          </li>
+
+        </ol>
+
+      </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+
+      <div class="container">
+
+        <header class="section__header">
+
+          <span class="section__label">
+            04 / Contact
+          </span>
+
+          <h2 class="section__title">
+            Let's Talk
+          </h2>
+
+        </header>
+
+        <div class="contact__body">
+
+          <p class="contact__text">
+            Open to freelance projects, collaborations, and opportunities.
+          </p>
+
+          <!-- Contact Form -->
+          <form id="contact-form">
+
+            <input type="text" id="name" placeholder="Your Name">
+
+            <input type="email" id="email" placeholder="Your Email">
+
+            <textarea id="message" placeholder="Your Message"></textarea>
+
+            <button type="submit" class="btn btn--primary">
+              Send Message
+            </button>
+
+          </form>
+
+          <p id="form-message"></p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <p class="site-footer__copy">
+        &copy; 2026 Bhuvana — Built with HTML, CSS & JavaScript.
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top Button -->
+  <button id="scrollTopBtn">↑</button>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
